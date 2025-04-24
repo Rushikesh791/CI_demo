@@ -7,7 +7,7 @@ categories = ['Cat', 'Dog']
 days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 data = {category: [randm.randint(5, 20) for _ in days] for category in categories}
 
-# Bar Chart
+# Bar Chart ko 
 plt.figure(figsize=(10, 5))
 x = range(len(days))
 bar_width = 0.35
